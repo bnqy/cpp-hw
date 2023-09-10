@@ -6,7 +6,7 @@ using namespace std;
 class algraph {
   int numVertices;
   list<int>* adjLists;
-  bool* visited;
+  bool* visited; 
 
    public:
   algraph(int vertices);
